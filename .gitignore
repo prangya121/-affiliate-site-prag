@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Best Picks Hub | Honest Reviews & Deals</title>
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Honest reviews, comparisons, and top picks to help you choose the best products. This site contains affiliate links; we may earn commissions." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Best Picks Hub" />
+  <meta property="og:description" content="Honest reviews and comparisons. We may earn affiliate commissions." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./app.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="./index.html">Best Picks Hub</a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#featured">Featured</a>
+        <a href="#compare">Compare</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="./disclosure.html">Disclosure</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Updated weekly • Reader-supported</p>
+          <h1>Find the best products faster with honest reviews and comparisons.</h1>
+          <p class="subhead">
+            We research, test (when possible), and summarize the top options. Some links are affiliate links,
+            meaning we may earn a commission at no extra cost to you.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#featured">See top picks</a>
+            <a class="btn ghost" href="./disclosure.html">Read disclosure</a>
+          </div>
+
+          <p class="fineprint">
+            Tip: Bookmark this site for updated picks and price drops.
+          </p>
+        </div>
+
+        <div class="hero-card">
+          <h2 class="hero-card-title">Today’s Quick Picks</h2>
+          <ul class="quick-picks">
+            <li><strong>Best Overall:</strong> Product Alpha</li>
+            <li><strong>Best Value:</strong> Product Beta</li>
+            <li><strong>Best Premium:</strong> Product Gamma</li>
+          </ul>
+          <p class="small">
+            Replace these with your actual affiliate products.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Products</h2>
+          <p>High-performing recommendations with clear pros/cons.</p>
+        </div>
+
+        <div class="grid cards">
+          <!-- Product card 1 -->
+          <article class="card">
+            <div class="card-body">
+              <h3>Product Alpha</h3>
+              <p class="muted">Best overall for most people</p>
+
+              <ul class="pros">
+                <li>Strong performance</li>
+                <li>Great warranty/support</li>
+                <li>Easy to use</li>
+              </ul>
+
+              <p class="small muted">
+                Disclosure: This is an affiliate link. We may earn a commission.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <!-- Replace href with your affiliate link -->
+              <a class="btn primary full" href="https://example.com/affiliate-link-1" target="_blank" rel="sponsored noopener noreferrer">
+                Check price
+              </a>
+            </div>
+          </article>
+
+          <!-- Product card 2 -->
+          <article class="card">
+            <div class="card-body">
+              <h3>Product Beta</h3>
+              <p class="muted">Best value</p>
+
+              <ul class="pros">
+                <li>Affordable</li>
+                <li>Reliable</li>
+                <li>Great for beginners</li>
+              </ul>
+
+              <p class="small muted">
+                Disclosure: This is an affiliate link. We may earn a commission.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a class="btn primary full" href="https://example.com/affiliate-link-2" target="_blank" rel="sponsored noopener noreferrer">
+                View deal
+              </a>
+            </div>
+          </article>
+
+          <!-- Product card 3 -->
+          <article class="card">
+            <div class="card-body">
+              <h3>Product Gamma</h3>
+              <p class="muted">Best premium</p>
+
+              <ul class="pros">
+                <li>Top-tier features</li>
+                <li>Premium build quality</li>
+                <li>Excellent results</li>
+              </ul>
+
+              <p class="small muted">
+                Disclosure: This is an affiliate link. We may earn a commission.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a class="btn primary full" href="https://example.com/affiliate-link-3" target="_blank" rel="sponsored noopener noreferrer">
+                Learn more
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="compare" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Quick Comparison</h2>
+          <p>Update this table as you review more products.</p>
+        </div>
+
+        <div class="table-wrap" role="region" aria-label="Comparison table" tabindex="0">
+          <table class="compare">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Best for</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Product Alpha</strong></td>
+                <td>Most users</td>
+                <td>$$</td>
+                <td>4.7/5</td>
+                <td>
+                  <a class="link" href="https://example.com/affiliate-link-1" target="_blank" rel="sponsored noopener noreferrer">Buy</a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Product Beta</strong></td>
+                <td>Budget buyers</td>
+                <td>$</td>
+                <td>4.4/5</td>
+                <td>
+                  <a class="link" href="https://example.com/affiliate-link-2" target="_blank" rel="sponsored noopener noreferrer">Buy</a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Product Gamma</strong></td>
+                <td>Power users</td>
+                <td>$$$</td>
+                <td>4.8/5</td>
+                <td>
+                  <a class="link" href="https://example.com/affiliate-link-3" target="_blank" rel="sponsored noopener noreferrer">Buy</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small muted">
+          Note: Use <code>rel="sponsored"</code> on affiliate links for best practice.
+        </p>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section">
+      <div class="container newsletter">
+        <div>
+          <h2>Get weekly deals & updates</h2>
+          <p class="muted">No spam. Unsubscribe anytime.</p>
+        </div>
+
+        <!-- Front-end only; connect to your email provider -->
+        <form class="newsletter-form" id="newsletterForm">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="./index.html">Best Picks Hub</a>
+        <p class="small muted">
+          Reader-supported. We may earn affiliate commissions at no extra cost to you.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="./disclosure.html">Affiliate Disclosure</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="small muted">© <span id="year"></span> Best Picks Hub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
